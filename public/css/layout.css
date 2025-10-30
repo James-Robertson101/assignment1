@@ -1,0 +1,30 @@
+body {
+  padding-top: 0;
+  background-color: #222759;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#C0C6FF;
+  margin:0;
+  padding:0;
+  font-weight:600;
+}
+button {
+  text-transform: uppercase;
+}
+
+.topnav {
+  background-color: white;
+  overflow: hidden;
+}
+
+
+.navlink {
+  float: left;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navlink:hover{
+  background-color: #222759;;
+  color:white;
+}
