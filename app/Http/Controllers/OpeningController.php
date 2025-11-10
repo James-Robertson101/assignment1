@@ -15,6 +15,6 @@ class OpeningController extends Controller
     }
     function about()
     {
-        return "about the chess opening app";
+        return view('openings.about');
     }
 }

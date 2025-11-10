@@ -1,7 +1,7 @@
 <x-layout title="Add New Opening">
   <h1>Add a New Chess Opening</h1>
 
-  <form method="POST" action="/openings" enctype="multipart/form-data">
+  <form class="createForm"method="POST" action="/openings" enctype="multipart/form-data">
     @csrf
 
     <div>

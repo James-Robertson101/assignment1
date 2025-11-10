@@ -12,8 +12,9 @@ button {
 }
 
 .topnav {
-  background-color: white;
+  background-color: #7C81AE;
   overflow: hidden;
+  border-bottom: 5px solid #C0C6FF
 }
 
 
@@ -23,8 +24,9 @@ button {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  color: white;
 }
 .navlink:hover{
-  background-color: #222759;;
+  background-color: #222759;
   color:white;
 }
