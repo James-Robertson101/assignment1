@@ -4,6 +4,7 @@
     <title>{{$title}}</title>
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <link href="{{asset('css/layout.css')}}" type="text/css" rel="stylesheet" />
+    {{ $styles ?? '' }}
   </head>
   <body>
     <div class="topnav">

@@ -1,9 +1,11 @@
 <x-layout title="Add New Opening">
-  <h1>Add a New Chess Opening</h1>
-
-  <form class="createForm"method="POST" action="/openings" enctype="multipart/form-data">
+  <x-slot:styles>
+    <link href="{{ asset('css/create.css') }}" rel="stylesheet" />
+  </x-slot:styles>
+<div class="formContainer">
+  <form class="createForm" method="POST" action="/openings" enctype="multipart/form-data">
     @csrf
-
+    <h1 class="formTitle">Add a New Chess Opening</h1>
     <div>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required />
@@ -28,4 +30,5 @@
       <button type="submit">Save Opening</button>
     </div>
   </form>
+</div>
 </x-layout>
