@@ -1,9 +1,9 @@
 <x-layout title="Add New Opening">
   <x-slot:styles>
-    <link href="{{ asset('css/create.css') }}" rel="stylesheet" />
+    <link href="{{ asset('css/form.css') }}" rel="stylesheet" />
   </x-slot:styles>
 <div class="formContainer">
-  <form class="createForm" method="POST" action="/openings" enctype="multipart/form-data">
+  <form class="Form" method="POST" action="/openings">
     @csrf
     <h1 class="formTitle">Add a New Chess Opening</h1>
     <div>
@@ -13,7 +13,7 @@
 
     <div>
       <label for="eco_code">ECO Code:</label>
-      <input type="text" id="eco_code" name="eco_code" placeholder="e.g., C60" />
+      <input type="text" id="eco_code" name="eco_code" placeholder="e.g., C60 (Optional)" />
     </div>
 
     <div>
